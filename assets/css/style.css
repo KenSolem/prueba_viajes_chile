@@ -1,0 +1,35 @@
+body {
+  font-family: "Cabin", sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10; 
+  }
+.nav-link {
+    color:aliceblue
+}
+
+.estaclaseessoloparaelpadding {
+
+    padding: 60px;
+}
+.estaclaseessoloparaelpaddingperolamitad{
+    padding: 30px;
+}
+
+.linea-divisoria::before {
+    content: "";
+    display: block;
+    width: 80%;
+    height: 1px;
+    background-color: #3f3e3e;
+    margin: 10px auto;
+  }
+.card-img-top {
+    width: 300px;
+    height: 200px;
+  }
